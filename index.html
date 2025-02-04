@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feliz aniversário mainha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Feito por Misac Filho❤️</h1>
+    <h2>Para Mainha</h2>
+    <h3>05/02/2025</h3>
+    <h4>Cartão</h4>
+    <div class="cartão">
+        <div class="quadrado" onclick="mostrarImagem()">Abrir</div>
+        <img src="./assets/cartão aniversario.jpeg" alt="fotos" style="display: none;"> <!-- Inicialmente escondida -->
+        <p>O feliz aniversário de hoje vai para minha mãe, Francisca Claudenice Tavares de Farias, uma mulher forte, guerreira,
+            e que independente das dificuldades sempre manteve a calma, uma mãe que por mais que estivesse com problemas
+            sempre pensava o melhor por mim e meus irmãos e se concentrava em manter a calma, não foi um nariz quebrado
+            ou momentos de aperreio como um deslocamento de rótula que desestabilizaram essa mulher. Esse texto vai para a mulher mais
+            forte que eu conheço, parabéns Mainha😘.</p>
+    </div>
+    
+    <script>
+        function mostrarImagem() {
+            const quadrado = document.querySelector('.quadrado');
+            const imagem = document.querySelector('.cartão img');
+            
+            quadrado.style.display = 'none'; // Esconde o quadrado
+            imagem.style.display = 'block'; // Mostra a imagem
+        }
+    </script>
+</body>
+</html>
